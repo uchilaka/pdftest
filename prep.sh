@@ -1,0 +1,1 @@
+sudo rm -fv "./config/database.yml"

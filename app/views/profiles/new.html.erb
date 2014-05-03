@@ -1,0 +1,26 @@
+<h1>Profile Information</h1>
+<%= form_for :profile, url: profiles_path do |p| %>
+
+	<p>
+	<label><%= p.label :first_name %></label>
+	<%= p.text_field :first_name %>
+	</p>
+
+	<p>
+	<label><%= p.label :last_name %></label>
+	<%=p.text_field :last_name %>
+	</p>
+
+	<p>
+	<label><%= p.label :dob %></label>
+	<%= p.text_field :dob %>
+	</p>
+
+	<p>
+	<%= p.submit %>
+	</p>
+
+<% end %>
+
+
+
